@@ -272,7 +272,7 @@ public enum Sound {
   ENTITY_EVOKER_PREPARE_SUMMON(new SoundIDMapping(MINECRAFT_1_9, MINECRAFT_LATEST, "entity.evoker.prepare.summon")),
   ENTITY_EVOKER_PREPARE_WOLOLO(new SoundIDMapping(MINECRAFT_1_9, MINECRAFT_LATEST, "entity.evoker.prepare.wololo")),
   ENTITY_EXPERIENCE_BOTTLE_THROW(new SoundIDMapping(MINECRAFT_1_8, MINECRAFT_1_8, "random.bow"), new SoundIDMapping(MINECRAFT_1_9, MINECRAFT_LATEST, "entity.experience_bottle.throw")),
-  ENTITY_EXPERIENCE_ORB_PICKUP(new SoundIDMapping(MINECRAFT_1_8, MINECRAFT_1_8, "random.orb"), new SoundIDMapping(MINECRAFT_1_9, MINECRAFT_LATEST, "entity.experience_orb.pickup")),
+  ENTITY_EXPERIENCE_ORB_PICKUP(new SoundIDMapping(MINECRAFT_1_7_2, MINECRAFT_1_8, "random.orb"), new SoundIDMapping(MINECRAFT_1_9, MINECRAFT_LATEST, "entity.experience_orb.pickup")),
   ENTITY_FIREWORK_ROCKET_BLAST(new SoundIDMapping(MINECRAFT_1_9, MINECRAFT_LATEST, "entity.firework.rocket.blast")),
   ENTITY_FIREWORK_ROCKET_BLAST_FAR(new SoundIDMapping(MINECRAFT_1_9, MINECRAFT_LATEST, "entity.firework.rocket.blast.far")),
   ENTITY_FIREWORK_ROCKET_LARGE_BLAST(new SoundIDMapping(MINECRAFT_1_9, MINECRAFT_LATEST, "entity.firework.rocket.large.blast")),
