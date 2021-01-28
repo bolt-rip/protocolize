@@ -47,6 +47,8 @@ public class WorldModule {
     soundEffect.setVolume(volume);
     soundEffect.setSound(sound);
     final Location location = getLocation(proxiedPlayer.getUniqueId());
+    if (location == null) // proxiedPlayer is on unsupported version
+      return;
     soundEffect.setX(location.getX());
     soundEffect.setY(location.getY());
     soundEffect.setZ(location.getZ());
